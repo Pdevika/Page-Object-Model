@@ -1,0 +1,9 @@
+com\qa\utilities\TestUtil.class
+com\qa\pages\SignInPage.class
+com\qa\ExtentreportListener\ExtentReportListener.class
+com\qa\pages\ShopDealsPage.class
+com\qa\pages\HomePage.class
+com\qa\pages\RegistryPage.class
+com\qa\pages\RegistrationPage.class
+com\qa\utilities\WebEventListener.class
+com\qa\base\TestBase.class
