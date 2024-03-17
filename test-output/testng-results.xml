@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="13" passed="10" failed="3" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-06T23:56:53 EST" name="Suite" finished-at="2024-03-07T00:05:05 EST" duration-ms="492803">
+    <groups>
+    </groups>
+    <test started-at="2024-03-06T23:56:53 EST" name="Test" finished-at="2024-03-07T00:05:05 EST" duration-ms="492803">
+      <class name="com.qa.tests.HomePageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.tests.HomePageTest@6892b3b6]" started-at="2024-03-06T23:57:31 EST" name="setUp" finished-at="2024-03-06T23:57:45 EST" duration-ms="14131" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="HomePageTitleTest()[pri:1, instance:com.qa.tests.HomePageTest@6892b3b6]" started-at="2024-03-06T23:57:45 EST" name="HomePageTitleTest" finished-at="2024-03-06T23:57:50 EST" duration-ms="5009" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePageTitleTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.qa.tests.HomePageTest@6892b3b6]" started-at="2024-03-06T23:57:50 EST" name="closeBrowser" finished-at="2024-03-06T23:57:51 EST" duration-ms="1081" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.tests.HomePageTest@6892b3b6]" started-at="2024-03-06T23:57:51 EST" name="setUp" finished-at="2024-03-06T23:58:06 EST" duration-ms="15020" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyUsername()[pri:2, instance:com.qa.tests.HomePageTest@6892b3b6]" started-at="2024-03-06T23:58:06 EST" name="verifyUsername" finished-at="2024-03-06T23:58:22 EST" duration-ms="16015" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: Devika
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-IJOKCR5', ip: '10.0.0.72', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 123.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20240304104836, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 8340, moz:profile: C:\Users\puran\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e509ad5f-36a2-4f18-af39-e1e8302137ee
+*** Element info: {Using=link text, value=Devika}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: Devika
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-IJOKCR5', ip: '10.0.0.72', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 123.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20240304104836, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 8340, moz:profile: C:\Users\puran\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e509ad5f-36a2-4f18-af39-e1e8302137ee
+*** Element info: {Using=link text, value=Devika}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:380)
+at org.openqa.selenium.By$ByLinkText.findElement(By.java:220)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+at jdk.proxy2/jdk.proxy2.$Proxy10.findElement(Unknown Source)
+at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy14.isDisplayed(Unknown Source)
+at com.qa.pages.HomePage.verifyUsername(HomePage.java:51)
+at com.qa.tests.HomePageTest.verifyUsername(HomePageTest.java:52)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUsername -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.qa.tests.HomePageTest@6892b3b6]" started-at="2024-03-06T23:58:22 EST" name="closeBrowser" finished-at="2024-03-06T23:58:23 EST" duration-ms="1126" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.tests.HomePageTest@6892b3b6]" started-at="2024-03-06T23:58:23 EST" name="setUp" finished-at="2024-03-06T23:58:38 EST" duration-ms="15084" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyShopDeals()[pri:3, instance:com.qa.tests.HomePageTest@6892b3b6]" started-at="2024-03-06T23:58:38 EST" name="verifyShopDeals" finished-at="2024-03-06T23:58:39 EST" duration-ms="298" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyShopDeals -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.qa.tests.HomePageTest@6892b3b6]" started-at="2024-03-06T23:58:39 EST" name="closeBrowser" finished-at="2024-03-06T23:58:40 EST" duration-ms="1059" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.tests.HomePageTest@6892b3b6]" started-at="2024-03-06T23:58:40 EST" name="setUp" finished-at="2024-03-06T23:58:54 EST" duration-ms="14191" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyRegistryPage()[pri:4, instance:com.qa.tests.HomePageTest@6892b3b6]" started-at="2024-03-06T23:58:54 EST" name="verifyRegistryPage" finished-at="2024-03-06T23:58:54 EST" duration-ms="329" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegistryPage -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.qa.tests.HomePageTest@6892b3b6]" started-at="2024-03-06T23:58:54 EST" name="closeBrowser" finished-at="2024-03-06T23:58:55 EST" duration-ms="1051" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.tests.HomePageTest@6892b3b6]" started-at="2024-03-06T23:58:55 EST" name="setUp" finished-at="2024-03-06T23:59:10 EST" duration-ms="14608" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyDropdownList()[pri:5, instance:com.qa.tests.HomePageTest@6892b3b6]" started-at="2024-03-06T23:59:10 EST" name="verifyDropdownList" finished-at="2024-03-06T23:59:10 EST" duration-ms="65" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDropdownList -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.qa.tests.HomePageTest@6892b3b6]" started-at="2024-03-06T23:59:10 EST" name="closeBrowser" finished-at="2024-03-06T23:59:11 EST" duration-ms="1040" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.qa.tests.HomePageTest -->
+      <class name="com.qa.tests.ShopDealsPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.tests.ShopDealsPageTest@6e6f2380]" started-at="2024-03-06T23:59:11 EST" name="setUp" finished-at="2024-03-06T23:59:27 EST" duration-ms="15710" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="ShopDealsPageTitleTest()[pri:1, instance:com.qa.tests.ShopDealsPageTest@6e6f2380]" started-at="2024-03-06T23:59:27 EST" name="ShopDealsPageTitleTest" finished-at="2024-03-06T23:59:32 EST" duration-ms="5016" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ShopDealsPageTitleTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.qa.tests.ShopDealsPageTest@6e6f2380]" started-at="2024-03-06T23:59:32 EST" name="closeBrowser" finished-at="2024-03-06T23:59:33 EST" duration-ms="1153" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.tests.ShopDealsPageTest@6e6f2380]" started-at="2024-03-06T23:59:33 EST" name="setUp" finished-at="2024-03-06T23:59:49 EST" duration-ms="15963" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyShopDealsPage()[pri:2, instance:com.qa.tests.ShopDealsPageTest@6e6f2380]" started-at="2024-03-06T23:59:49 EST" name="verifyShopDealsPage" finished-at="2024-03-06T23:59:50 EST" duration-ms="944" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyShopDealsPage -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.qa.tests.ShopDealsPageTest@6e6f2380]" started-at="2024-03-06T23:59:50 EST" name="closeBrowser" finished-at="2024-03-06T23:59:51 EST" duration-ms="1110" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.tests.ShopDealsPageTest@6e6f2380]" started-at="2024-03-06T23:59:51 EST" name="setUp" finished-at="2024-03-07T00:00:05 EST" duration-ms="14265" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="VerifySearchList()[pri:3, instance:com.qa.tests.ShopDealsPageTest@6e6f2380]" started-at="2024-03-07T00:00:05 EST" name="VerifySearchList" finished-at="2024-03-07T00:00:11 EST" duration-ms="5410" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifySearchList -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.qa.tests.ShopDealsPageTest@6e6f2380]" started-at="2024-03-07T00:00:11 EST" name="closeBrowser" finished-at="2024-03-07T00:00:12 EST" duration-ms="970" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.qa.tests.ShopDealsPageTest -->
+      <class name="com.qa.tests.RegistryPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.tests.RegistryPageTest@76a4ebf2]" started-at="2024-03-07T00:00:12 EST" name="setUp" finished-at="2024-03-07T00:02:27 EST" duration-ms="135048" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="createnewregistry(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.qa.tests.RegistryPageTest@76a4ebf2]" started-at="2024-03-07T00:02:27 EST" name="createnewregistry" data-provider="getEtsyTestData" finished-at="2024-03-07T00:02:42 EST" duration-ms="15177" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[other]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[draft]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[November]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[2024]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Devika]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Puranik]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: (//button[@class = 'wt-btn wt-btn--secondary wt-btn--small wt-width-full'])[3]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-IJOKCR5', ip: '10.0.0.72', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 123.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20240304104836, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 20292, moz:profile: C:\Users\puran\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 78a6d04e-5e5d-4379-bcf7-1a26b83c4f9b
+*** Element info: {Using=xpath, value=(//button[@class = 'wt-btn wt-btn--secondary wt-btn--small wt-width-full'])[3]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: (//button[@class = 'wt-btn wt-btn--secondary wt-btn--small wt-width-full'])[3]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-IJOKCR5', ip: '10.0.0.72', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 123.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20240304104836, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 20292, moz:profile: C:\Users\puran\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 78a6d04e-5e5d-4379-bcf7-1a26b83c4f9b
+*** Element info: {Using=xpath, value=(//button[@class = 'wt-btn wt-btn--secondary wt-btn--small wt-width-full'])[3]}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at jdk.internal.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+at jdk.proxy2/jdk.proxy2.$Proxy10.findElement(Unknown Source)
+at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy14.click(Unknown Source)
+at com.qa.pages.RegistryPage.CreateNewRegistry(RegistryPage.java:79)
+at com.qa.tests.RegistryPageTest.createnewregistry(RegistryPageTest.java:43)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createnewregistry -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.qa.tests.RegistryPageTest@76a4ebf2]" started-at="2024-03-07T00:02:42 EST" name="closeBrowser" finished-at="2024-03-07T00:02:43 EST" duration-ms="645" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.tests.RegistryPageTest@76a4ebf2]" started-at="2024-03-07T00:02:43 EST" name="setUp" finished-at="2024-03-07T00:04:58 EST" duration-ms="135307" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="veriftregistrycreated()[pri:2, instance:com.qa.tests.RegistryPageTest@76a4ebf2]" started-at="2024-03-07T00:04:58 EST" name="veriftregistrycreated" finished-at="2024-03-07T00:05:04 EST" duration-ms="6132" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- veriftregistrycreated -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.qa.tests.RegistryPageTest@76a4ebf2]" started-at="2024-03-07T00:05:04 EST" name="closeBrowser" finished-at="2024-03-07T00:05:05 EST" duration-ms="1009" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.qa.tests.RegistryPageTest -->
+      <class name="com.qa.tests.SignInTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.tests.SignInTest@2e3967ea]" started-at="2024-03-06T23:56:53 EST" name="setUp" finished-at="2024-03-06T23:56:59 EST" duration-ms="6017" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="SignInPageTitleTest()[pri:1, instance:com.qa.tests.SignInTest@2e3967ea]" started-at="2024-03-06T23:56:59 EST" name="SignInPageTitleTest" finished-at="2024-03-06T23:57:04 EST" duration-ms="5075" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Etsy Canada - Shop for handmade, vintage, custom, and unique gifts for everyone] but found [etsy.com]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Etsy Canada - Shop for handmade, vintage, custom, and unique gifts for everyone] but found [etsy.com]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at com.qa.tests.SignInTest.SignInPageTitleTest(SignInTest.java:32)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignInPageTitleTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.qa.tests.SignInTest@2e3967ea]" started-at="2024-03-06T23:57:04 EST" name="closeBrowser" finished-at="2024-03-06T23:57:05 EST" duration-ms="1081" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.tests.SignInTest@2e3967ea]" started-at="2024-03-06T23:57:05 EST" name="setUp" finished-at="2024-03-06T23:57:08 EST" duration-ms="3373" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateLogo()[pri:2, instance:com.qa.tests.SignInTest@2e3967ea]" started-at="2024-03-06T23:57:08 EST" name="validateLogo" finished-at="2024-03-06T23:57:13 EST" duration-ms="5088" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLogo -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.qa.tests.SignInTest@2e3967ea]" started-at="2024-03-06T23:57:13 EST" name="closeBrowser" finished-at="2024-03-06T23:57:14 EST" duration-ms="1025" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.tests.SignInTest@2e3967ea]" started-at="2024-03-06T23:57:14 EST" name="setUp" finished-at="2024-03-06T23:57:19 EST" duration-ms="4630" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="SignIn()[pri:3, instance:com.qa.tests.SignInTest@2e3967ea]" started-at="2024-03-06T23:57:19 EST" name="SignIn" finished-at="2024-03-06T23:57:30 EST" duration-ms="10926" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignIn -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.qa.tests.SignInTest@2e3967ea]" started-at="2024-03-06T23:57:30 EST" name="closeBrowser" finished-at="2024-03-06T23:57:31 EST" duration-ms="1068" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.qa.tests.SignInTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

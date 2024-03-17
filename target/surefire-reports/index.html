@@ -1,0 +1,736 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Surefire_suite" class="navigator-link">
+              <span class="suite-name border-failed">Surefire suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Surefire_suite" class="navigator-link ">
+                    <span>[unset file name]</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Surefire_suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Surefire_suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Surefire_suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Surefire_suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Surefire_suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Surefire_suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">13 methods, 1 failed,  3 skipped,  9 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Surefire_suite" class="hide-methods failed suite-Surefire_suite"> (hide)</a> <!-- hide-methods failed suite-Surefire_suite -->
+                      <a href="#" panel-name="suite-Surefire_suite" class="show-methods failed suite-Surefire_suite"> (show)</a> <!-- show-methods failed suite-Surefire_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Surefire_suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.qa.tests.RegistryPageTest" class="method navigator-link" hash-for-method="createnewregistry(other, draft, 9, November, 2024, Devika, Puranik)">createnewregistry(other, draft, 9, November, 2024, Devika, Puranik)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Surefire_suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Surefire_suite" class="hide-methods skipped suite-Surefire_suite"> (hide)</a> <!-- hide-methods skipped suite-Surefire_suite -->
+                      <a href="#" panel-name="suite-Surefire_suite" class="show-methods skipped suite-Surefire_suite"> (show)</a> <!-- show-methods skipped suite-Surefire_suite -->
+                    </span>
+                    <div class="method-list-content skipped suite-Surefire_suite">
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.qa.tests.ShopDealsPageTest" class="method navigator-link" hash-for-method="ShopDealsPageTitleTest">ShopDealsPageTitleTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.qa.tests.ShopDealsPageTest" class="method navigator-link" hash-for-method="VerifySearchList">VerifySearchList</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.qa.tests.ShopDealsPageTest" class="method navigator-link" hash-for-method="verifyShopDealsPage">verifyShopDealsPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Surefire_suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Surefire_suite" class="hide-methods passed suite-Surefire_suite"> (hide)</a> <!-- hide-methods passed suite-Surefire_suite -->
+                      <a href="#" panel-name="suite-Surefire_suite" class="show-methods passed suite-Surefire_suite"> (show)</a> <!-- show-methods passed suite-Surefire_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Surefire_suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.qa.tests.HomePageTest" class="method navigator-link" hash-for-method="HomePageTitleTest">HomePageTitleTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.qa.tests.SignInTest" class="method navigator-link" hash-for-method="SignIn">SignIn</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.qa.tests.SignInTest" class="method navigator-link" hash-for-method="SignInPageTitleTest">SignInPageTitleTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.qa.tests.SignInTest" class="method navigator-link" hash-for-method="validateLogo">validateLogo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.qa.tests.RegistryPageTest" class="method navigator-link" hash-for-method="veriftregistrycreated">veriftregistrycreated</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.qa.tests.HomePageTest" class="method navigator-link" hash-for-method="verifyDropdownList">verifyDropdownList</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.qa.tests.HomePageTest" class="method navigator-link" hash-for-method="verifyRegistryPage">verifyRegistryPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.qa.tests.HomePageTest" class="method navigator-link" hash-for-method="verifyShopDeals">verifyShopDeals</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.qa.tests.HomePageTest" class="method navigator-link" hash-for-method="verifyUsername">verifyUsername</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Surefire_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Surefire_suite" class="panel Surefire_suite">
+          <div class="suite-Surefire_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.qa.tests.RegistryPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="createnewregistry(other, draft, 9, November, 2024, Devika, Puranik)">
+                  </a> <!-- createnewregistry(other, draft, 9, November, 2024, Devika, Puranik) -->
+                  <span class="method-name">createnewregistry</span>
+                  <span class="parameters">(other,draft,9,November,2024,Devika,Puranik)</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to locate element: (//button[@class = &apos;wt-btn wt-btn--secondary wt-btn--small wt-width-full&apos;])[3]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-IJOKCR5&apos;, ip: &apos;10.0.0.72&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.10&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 123.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20240304104836, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 10644, moz:profile: C:\Users\puran\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 9aa37dac-b25a-47c6-83b2-7c63460aba05
+*** Element info: {Using=xpath, value=(//button[@class = &apos;wt-btn wt-btn--secondary wt-btn--small wt-width-full&apos;])[3]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at jdk.proxy2/jdk.proxy2.$Proxy7.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy11.click(Unknown Source)
+	at com.qa.pages.RegistryPage.CreateNewRegistry(RegistryPage.java:79)
+	at com.qa.tests.RegistryPageTest.createnewregistry(RegistryPageTest.java:43)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 40 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-failed -->
+          <div class="suite-Surefire_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.qa.tests.ShopDealsPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ShopDealsPageTitleTest">
+                  </a> <!-- ShopDealsPageTitleTest -->
+                  <span class="method-name">ShopDealsPageTitleTest</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to locate element: *[name=&apos;email&apos;]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-IJOKCR5&apos;, ip: &apos;10.0.0.72&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.10&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 123.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20240304104836, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 12400, moz:profile: C:\Users\puran\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 3c5713e0-2bb2-4a39-acdc-ade83a0b0c4b
+*** Element info: {Using=name, value=email}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:404)
+	at org.openqa.selenium.By$ByName.findElement(By.java:284)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at jdk.proxy2/jdk.proxy2.$Proxy7.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy11.sendKeys(Unknown Source)
+	at com.qa.pages.SignInPage.SignIn(SignInPage.java:76)
+	at com.qa.tests.ShopDealsPageTest.setUp(ShopDealsPageTest.java:61)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 44 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifySearchList">
+                  </a> <!-- VerifySearchList -->
+                  <span class="method-name">VerifySearchList</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to locate element: *[name=&apos;email&apos;]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-IJOKCR5&apos;, ip: &apos;10.0.0.72&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.10&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 123.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20240304104836, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 12400, moz:profile: C:\Users\puran\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 3c5713e0-2bb2-4a39-acdc-ade83a0b0c4b
+*** Element info: {Using=name, value=email}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:404)
+	at org.openqa.selenium.By$ByName.findElement(By.java:284)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at jdk.proxy2/jdk.proxy2.$Proxy7.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy11.sendKeys(Unknown Source)
+	at com.qa.pages.SignInPage.SignIn(SignInPage.java:76)
+	at com.qa.tests.ShopDealsPageTest.setUp(ShopDealsPageTest.java:61)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 44 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyShopDealsPage">
+                  </a> <!-- verifyShopDealsPage -->
+                  <span class="method-name">verifyShopDealsPage</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to locate element: *[name=&apos;email&apos;]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-IJOKCR5&apos;, ip: &apos;10.0.0.72&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.10&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 123.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20240304104836, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 12400, moz:profile: C:\Users\puran\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 3c5713e0-2bb2-4a39-acdc-ade83a0b0c4b
+*** Element info: {Using=name, value=email}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:404)
+	at org.openqa.selenium.By$ByName.findElement(By.java:284)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at jdk.proxy2/jdk.proxy2.$Proxy7.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy11.sendKeys(Unknown Source)
+	at com.qa.pages.SignInPage.SignIn(SignInPage.java:76)
+	at com.qa.tests.ShopDealsPageTest.setUp(ShopDealsPageTest.java:61)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 44 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-skipped -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.qa.tests.RegistryPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="veriftregistrycreated">
+                  </a> <!-- veriftregistrycreated -->
+                  <span class="method-name">veriftregistrycreated</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.qa.tests.HomePageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="HomePageTitleTest">
+                  </a> <!-- HomePageTitleTest -->
+                  <span class="method-name">HomePageTitleTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyDropdownList">
+                  </a> <!-- verifyDropdownList -->
+                  <span class="method-name">verifyDropdownList</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyRegistryPage">
+                  </a> <!-- verifyRegistryPage -->
+                  <span class="method-name">verifyRegistryPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyShopDeals">
+                  </a> <!-- verifyShopDeals -->
+                  <span class="method-name">verifyShopDeals</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyUsername">
+                  </a> <!-- verifyUsername -->
+                  <span class="method-name">verifyUsername</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.qa.tests.SignInTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="SignIn">
+                  </a> <!-- SignIn -->
+                  <span class="method-name">SignIn</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SignInPageTitleTest">
+                  </a> <!-- SignInPageTitleTest -->
+                  <span class="method-name">SignInPageTitleTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateLogo">
+                  </a> <!-- validateLogo -->
+                  <span class="method-name">validateLogo</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+        </div> <!-- panel Surefire_suite -->
+        <div panel-name="test-xml-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;1&quot; name=&quot;Surefire suite&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;1&quot; name=&quot;Surefire test&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.qa.tests.HomePageTest&quot;/&gt;
+      &lt;class name=&quot;com.qa.tests.RegistryPageTest&quot;/&gt;
+      &lt;class name=&quot;com.qa.tests.ShopDealsPageTest&quot;/&gt;
+      &lt;class name=&quot;com.qa.tests.SignInTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Surefire test --&gt;
+&lt;/suite&gt; &lt;!-- Surefire suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Surefire test (4 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Surefire_suite');
+function tableData_Surefire_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(13);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'createnewregistry')
+data.setCell(0, 2, 'com.qa.tests.RegistryPageTest')
+data.setCell(0, 3, 15242);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'SignIn')
+data.setCell(1, 2, 'com.qa.tests.SignInTest')
+data.setCell(1, 3, 10731);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'validateLogo')
+data.setCell(2, 2, 'com.qa.tests.SignInTest')
+data.setCell(2, 3, 8133);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'veriftregistrycreated')
+data.setCell(3, 2, 'com.qa.tests.RegistryPageTest')
+data.setCell(3, 3, 5960);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'verifyUsername')
+data.setCell(4, 2, 'com.qa.tests.HomePageTest')
+data.setCell(4, 3, 5256);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'SignInPageTitleTest')
+data.setCell(5, 2, 'com.qa.tests.SignInTest')
+data.setCell(5, 3, 5025);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'HomePageTitleTest')
+data.setCell(6, 2, 'com.qa.tests.HomePageTest')
+data.setCell(6, 3, 5016);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'verifyRegistryPage')
+data.setCell(7, 2, 'com.qa.tests.HomePageTest')
+data.setCell(7, 3, 295);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'verifyShopDeals')
+data.setCell(8, 2, 'com.qa.tests.HomePageTest')
+data.setCell(8, 3, 219);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'verifyDropdownList')
+data.setCell(9, 2, 'com.qa.tests.HomePageTest')
+data.setCell(9, 3, 63);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'ShopDealsPageTitleTest')
+data.setCell(10, 2, 'com.qa.tests.ShopDealsPageTest')
+data.setCell(10, 3, 1);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'verifyShopDealsPage')
+data.setCell(11, 2, 'com.qa.tests.ShopDealsPageTest')
+data.setCell(11, 3, 0);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'VerifySearchList')
+data.setCell(12, 2, 'com.qa.tests.ShopDealsPageTest')
+data.setCell(12, 3, 0);
+window.suiteTableData['Surefire_suite']= { tableData: data, tableDiv: 'times-div-Surefire_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 55 seconds</span>
+              <div id="times-div-Surefire_suite">
+              </div> <!-- times-div-Surefire_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.tests.HomePageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">HomePageTitleTest</span>
+                <span class="method-start">16120 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">21139 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">22404 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyUsername</span>
+                <span class="method-start">36977 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">42233 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">43438 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyShopDeals</span>
+                <span class="method-start">57935 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">58157 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">59131 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyRegistryPage</span>
+                <span class="method-start">73451 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">73747 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">74930 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyDropdownList</span>
+                <span class="method-start">90008 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">90072 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.tests.RegistryPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">91609 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">createnewregistry(other, draft, 9, November, 2024, Devika, Puranik)</span>
+                <span class="method-start">226871 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">242120 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">242794 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">veriftregistrycreated</span>
+                <span class="method-start">377336 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">383297 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.tests.ShopDealsPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">setUp</span>
+                <span class="method-start">384205 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">413735 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">413736 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.tests.SignInTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">413737 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">SignInPageTitleTest</span>
+                <span class="method-start">417938 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">422963 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">423801 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateLogo</span>
+                <span class="method-start">428662 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">436796 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">437881 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">SignIn</span>
+                <span class="method-start">442106 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">452837 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

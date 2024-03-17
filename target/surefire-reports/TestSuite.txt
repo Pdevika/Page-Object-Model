@@ -1,0 +1,28 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 19, Failures: 2, Errors: 0, Skipped: 8, Time elapsed: 454.298 s <<< FAILURE! - in TestSuite
+createnewregistry(com.qa.tests.RegistryPageTest)  Time elapsed: 15.25 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: (//button[@class = 'wt-btn wt-btn--secondary wt-btn--small wt-width-full'])[3]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-IJOKCR5', ip: '10.0.0.72', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 123.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20240304104836, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 10644, moz:profile: C:\Users\puran\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 9aa37dac-b25a-47c6-83b2-7c63460aba05
+*** Element info: {Using=xpath, value=(//button[@class = 'wt-btn wt-btn--secondary wt-btn--small wt-width-full'])[3]}
+	at com.qa.tests.RegistryPageTest.createnewregistry(RegistryPageTest.java:43)
+
+setUp(com.qa.tests.ShopDealsPageTest)  Time elapsed: 36.397 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: *[name='email']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-IJOKCR5', ip: '10.0.0.72', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 123.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20240304104836, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 12400, moz:profile: C:\Users\puran\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 3c5713e0-2bb2-4a39-acdc-ade83a0b0c4b
+*** Element info: {Using=name, value=email}
+	at com.qa.tests.ShopDealsPageTest.setUp(ShopDealsPageTest.java:61)
+

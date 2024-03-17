@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="454.298" tests="19" errors="0" skipped="8" failures="2">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\QA\Selenium_WorkSpace\MavenProject_practice\target\test-classes;C:\QA\Selenium_WorkSpace\MavenProject_practice\target\classes;C:\Users\puran\.m2\repository\org\testng\testng\7.8.0\testng-7.8.0.jar;C:\Users\puran\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\puran\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\puran\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\puran\.m2\repository\org\seleniumhq\selenium\selenium-server\3.141.59\selenium-server-3.141.59.jar;C:\Users\puran\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\puran\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\puran\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\puran\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\puran\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\puran\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\puran\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\puran\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\puran\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\puran\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\puran\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\puran\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\puran\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\puran\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\puran\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\puran\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\puran\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\puran\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\puran\.m2\repository\net\jcip\jcip-annotations\1.0\jcip-annotations-1.0.jar;C:\Users\puran\.m2\repository\org\seleniumhq\selenium\jetty-repacked\9.4.12.v20180830\jetty-repacked-9.4.12.v20180830.jar;C:\Users\puran\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\puran\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\puran\.m2\repository\javax\servlet\javax.servlet-api\3.1.0\javax.servlet-api-3.1.0.jar;C:\Users\puran\.m2\repository\org\yaml\snakeyaml\1.19\snakeyaml-1.19.jar;C:\Users\puran\.m2\repository\org\apache\poi\poi\3.9\poi-3.9.jar;C:\Users\puran\.m2\repository\commons-codec\commons-codec\1.5\commons-codec-1.5.jar;C:\Users\puran\.m2\repository\org\apache\poi\poi-ooxml\3.9\poi-ooxml-3.9.jar;C:\Users\puran\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;C:\Users\puran\.m2\repository\xml-apis\xml-apis\1.0.b2\xml-apis-1.0.b2.jar;C:\Users\puran\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.9\poi-ooxml-schemas-3.9.jar;C:\Users\puran\.m2\repository\org\apache\xmlbeans\xmlbeans\2.3.0\xmlbeans-2.3.0.jar;C:\Users\puran\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\Users\puran\.m2\repository\org\apache\poi\poi-scratchpad\3.9\poi-scratchpad-3.9.jar;C:\Users\puran\.m2\repository\org\apache\poi\ooxml-schemas\1.1\ooxml-schemas-1.1.jar;C:\Users\puran\.m2\repository\org\apache\poi\openxml4j\1.0-beta\openxml4j-1.0-beta.jar;C:\Users\puran\.m2\repository\log4j\log4j\1.2.8\log4j-1.2.8.jar;C:\Users\puran\.m2\repository\commons-io\commons-io\2.15.1\commons-io-2.15.1.jar;C:\Users\puran\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar;C:\Users\puran\.m2\repository\org\jsoup\jsoup\1.8.3\jsoup-1.8.3.jar;C:\Users\puran\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\Users\puran\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\puran\.m2\repository\org\mongodb\mongodb-driver\3.0.4\mongodb-driver-3.0.4.jar;C:\Users\puran\.m2\repository\org\mongodb\bson\3.0.4\bson-3.0.4.jar;C:\Users\puran\.m2\repository\org\mongodb\mongodb-driver-core\3.0.4\mongodb-driver-core-3.0.4.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="America/Toronto"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="CA"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/>
+    <property name="sun.java.command" value="C:\Users\puran\AppData\Local\Temp\surefire5377401221940509585\surefirebooter7299150998647008263.jar C:\Users\puran\AppData\Local\Temp\surefire5377401221940509585 2024-03-10T17-34-09_819-jvmRun1 surefire4614687492325701948tmp surefire_015056684735916063779tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\QA\Selenium_WorkSpace\MavenProject_practice\target\test-classes;C:\QA\Selenium_WorkSpace\MavenProject_practice\target\classes;C:\Users\puran\.m2\repository\org\testng\testng\7.8.0\testng-7.8.0.jar;C:\Users\puran\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\puran\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\puran\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\puran\.m2\repository\org\seleniumhq\selenium\selenium-server\3.141.59\selenium-server-3.141.59.jar;C:\Users\puran\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\puran\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\puran\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\puran\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\puran\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\puran\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\puran\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\puran\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\puran\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\puran\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\puran\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\puran\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\puran\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\puran\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\puran\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\puran\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\puran\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\puran\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\puran\.m2\repository\net\jcip\jcip-annotations\1.0\jcip-annotations-1.0.jar;C:\Users\puran\.m2\repository\org\seleniumhq\selenium\jetty-repacked\9.4.12.v20180830\jetty-repacked-9.4.12.v20180830.jar;C:\Users\puran\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\puran\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\puran\.m2\repository\javax\servlet\javax.servlet-api\3.1.0\javax.servlet-api-3.1.0.jar;C:\Users\puran\.m2\repository\org\yaml\snakeyaml\1.19\snakeyaml-1.19.jar;C:\Users\puran\.m2\repository\org\apache\poi\poi\3.9\poi-3.9.jar;C:\Users\puran\.m2\repository\commons-codec\commons-codec\1.5\commons-codec-1.5.jar;C:\Users\puran\.m2\repository\org\apache\poi\poi-ooxml\3.9\poi-ooxml-3.9.jar;C:\Users\puran\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;C:\Users\puran\.m2\repository\xml-apis\xml-apis\1.0.b2\xml-apis-1.0.b2.jar;C:\Users\puran\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.9\poi-ooxml-schemas-3.9.jar;C:\Users\puran\.m2\repository\org\apache\xmlbeans\xmlbeans\2.3.0\xmlbeans-2.3.0.jar;C:\Users\puran\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\Users\puran\.m2\repository\org\apache\poi\poi-scratchpad\3.9\poi-scratchpad-3.9.jar;C:\Users\puran\.m2\repository\org\apache\poi\ooxml-schemas\1.1\ooxml-schemas-1.1.jar;C:\Users\puran\.m2\repository\org\apache\poi\openxml4j\1.0-beta\openxml4j-1.0-beta.jar;C:\Users\puran\.m2\repository\log4j\log4j\1.2.8\log4j-1.2.8.jar;C:\Users\puran\.m2\repository\commons-io\commons-io\2.15.1\commons-io-2.15.1.jar;C:\Users\puran\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar;C:\Users\puran\.m2\repository\org\jsoup\jsoup\1.8.3\jsoup-1.8.3.jar;C:\Users\puran\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\Users\puran\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\puran\.m2\repository\org\mongodb\mongodb-driver\3.0.4\mongodb-driver-3.0.4.jar;C:\Users\puran\.m2\repository\org\mongodb\bson\3.0.4\bson-3.0.4.jar;C:\Users\puran\.m2\repository\org\mongodb\mongodb-driver-core\3.0.4\mongodb-driver-core-3.0.4.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\puran"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-01-16"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-17"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\QA\Selenium_WorkSpace\MavenProject_practice"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\puran\AppData\Local\Temp\surefire5377401221940509585\surefirebooter7299150998647008263.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.10+11-LTS-240"/>
+    <property name="user.name" value="puran"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\puran\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\puran\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.10"/>
+    <property name="user.dir" value="C:\QA\Selenium_WorkSpace\MavenProject_practice"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\puran\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Users\puran\Downloads\apache-ant-1.10.14-bin (1)\apache-ant-1.10.14\bin;C:\Program Files\Java\jdk-14.0.2\bin;C:\Users\puran\Downloads\apache-maven-3.9.6-bin (1)\apache-maven-3.9.6\bin;C:\Users\puran\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17.0.10+11-LTS-240"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="HomePageTitleTest" classname="com.qa.tests.HomePageTest" time="5.019"/>
+  <testcase name="verifyUsername" classname="com.qa.tests.HomePageTest" time="5.255"/>
+  <testcase name="verifyShopDeals" classname="com.qa.tests.HomePageTest" time="0.222"/>
+  <testcase name="verifyRegistryPage" classname="com.qa.tests.HomePageTest" time="0.296"/>
+  <testcase name="verifyDropdownList" classname="com.qa.tests.HomePageTest" time="0.064"/>
+  <testcase name="createnewregistry" classname="com.qa.tests.RegistryPageTest" time="15.25">
+    <failure message="Unable to locate element: (//button[@class = &apos;wt-btn wt-btn--secondary wt-btn--small wt-width-full&apos;])[3]&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-IJOKCR5&apos;, ip: &apos;10.0.0.72&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.10&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 123.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20240304104836, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 10644, moz:profile: C:\Users\puran\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 9aa37dac-b25a-47c6-83b2-7c63460aba05&#10;*** Element info: {Using=xpath, value=(//button[@class = &apos;wt-btn wt-btn--secondary wt-btn--small wt-width-full&apos;])[3]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: (//button[@class = 'wt-btn wt-btn--secondary wt-btn--small wt-width-full'])[3]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-IJOKCR5', ip: '10.0.0.72', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 123.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20240304104836, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 10644, moz:profile: C:\Users\puran\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 9aa37dac-b25a-47c6-83b2-7c63460aba05
+*** Element info: {Using=xpath, value=(//button[@class = 'wt-btn wt-btn--secondary wt-btn--small wt-width-full'])[3]}
+	at com.qa.tests.RegistryPageTest.createnewregistry(RegistryPageTest.java:43)
+</failure>
+    <system-out><![CDATA[Before navigating to: 'https://www.etsy.com/'
+Navigated to:'https://www.etsy.com/'
+Trying to find Element By : By.xpath: //button[contains(text(),'Sign in')]
+Found Element By : By.xpath: //button[contains(text(),'Sign in')]
+Trying to click on: [[FirefoxDriver: firefox on WINDOWS (9aa37dac-b25a-47c6-83b2-7c63460aba05)] -> xpath: //button[contains(text(),'Sign in')]]
+Clicked on: [[FirefoxDriver: firefox on WINDOWS (9aa37dac-b25a-47c6-83b2-7c63460aba05)] -> xpath: //button[contains(text(),'Sign in')]]
+Trying to find Element By : By.name: email
+Found Element By : By.name: email
+Trying to find Element By : By.name: password
+Found Element By : By.name: password
+Trying to find Element By : By.name: submit_attempt
+Found Element By : By.name: submit_attempt
+Trying to click on: [[FirefoxDriver: firefox on WINDOWS (9aa37dac-b25a-47c6-83b2-7c63460aba05)] -> name: submit_attempt]
+Clicked on: [[FirefoxDriver: firefox on WINDOWS (9aa37dac-b25a-47c6-83b2-7c63460aba05)] -> name: submit_attempt]
+Trying to find Element By : By.linkText: Registry
+Found Element By : By.linkText: Registry
+Trying to find Element By : By.xpath: (//button[@class = 'wt-btn wt-btn--secondary wt-btn--small wt-width-full'])[3]
+Exception occured: org.openqa.selenium.NoSuchElementException: Unable to locate element: (//button[@class = 'wt-btn wt-btn--secondary wt-btn--small wt-width-full'])[3]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-IJOKCR5', ip: '10.0.0.72', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 123.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20240304104836, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 10644, moz:profile: C:\Users\puran\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 9aa37dac-b25a-47c6-83b2-7c63460aba05
+*** Element info: {Using=xpath, value=(//button[@class = 'wt-btn wt-btn--secondary wt-btn--small wt-width-full'])[3]}
+]]></system-out>
+    <system-err><![CDATA[1710106541348	Marionette	INFO	Stopped listening on port 50755
+JavaScript warning: https://connect.facebook.net/en_GB/sdk.js?hash=fb5bdcc7e35cafbe251b738b7df546ab, line 22: Script terminated by timeout at:
+bindContext@https://connect.facebook.net/en_GB/sdk.js?hash=fb5bdcc7e35cafbe251b738b7df546ab:22:222
+@https://connect.facebook.net/en_GB/sdk.js?hash=fb5bdcc7e35cafbe251b738b7df546ab:22:507
+@https://connect.facebook.net/en_GB/sdk.js?hash=fb5bdcc7e35cafbe251b738b7df546ab:229:122
+
+Dynamically enable window occlusion 1
+1710106542912	geckodriver	INFO	Listening on 127.0.0.1:44249
+1710106542943	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\puran\\AppData\\Local\\Temp\\rust_mozprofile8d3NPI"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1710106543327	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1710106543617	Marionette	INFO	Listening on port 50864
+Read port: 50864
+1710106543788	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Mar. 10, 2024 5:35:44 P.M. org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+JavaScript warning: https://www.etsy.com/ac/evergreenVendor/js/en-GB/app-shell/globals/index.4c62678401eff02300bf.js, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://cdn.granify.com/assets/javascript.js?id=uPFzZ, line 4: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.etsy.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.etsy.com."
+JavaScript warning: https://www.etsy.com/ac/evergreenVendor/js/en-GB/app-shell/globals/index.4c62678401eff02300bf.js, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1710106575109	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript warning: https://www.etsy.com/ac/evergreenVendor/js/en-GB/app-shell/globals/index.4c62678401eff02300bf.js, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+]]></system-err>
+  </testcase>
+  <testcase name="veriftregistrycreated" classname="com.qa.tests.RegistryPageTest" time="5.961"/>
+  <testcase name="setUp" classname="com.qa.tests.ShopDealsPageTest" time="36.397">
+    <failure message="Unable to locate element: *[name=&apos;email&apos;]&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-IJOKCR5&apos;, ip: &apos;10.0.0.72&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.10&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 123.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20240304104836, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 12400, moz:profile: C:\Users\puran\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 3c5713e0-2bb2-4a39-acdc-ade83a0b0c4b&#10;*** Element info: {Using=name, value=email}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: *[name='email']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-IJOKCR5', ip: '10.0.0.72', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 123.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20240304104836, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 12400, moz:profile: C:\Users\puran\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 3c5713e0-2bb2-4a39-acdc-ade83a0b0c4b
+*** Element info: {Using=name, value=email}
+	at com.qa.tests.ShopDealsPageTest.setUp(ShopDealsPageTest.java:61)
+</failure>
+    <system-out><![CDATA[Before navigating to: 'https://www.etsy.com/'
+Navigated to:'https://www.etsy.com/'
+Trying to find Element By : By.xpath: //button[contains(text(),'Sign in')]
+Found Element By : By.xpath: //button[contains(text(),'Sign in')]
+Trying to click on: [[FirefoxDriver: firefox on WINDOWS (3c5713e0-2bb2-4a39-acdc-ade83a0b0c4b)] -> xpath: //button[contains(text(),'Sign in')]]
+Clicked on: [[FirefoxDriver: firefox on WINDOWS (3c5713e0-2bb2-4a39-acdc-ade83a0b0c4b)] -> xpath: //button[contains(text(),'Sign in')]]
+Trying to find Element By : By.name: email
+Exception occured: org.openqa.selenium.NoSuchElementException: Unable to locate element: *[name='email']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-IJOKCR5', ip: '10.0.0.72', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 123.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20240304104836, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 12400, moz:profile: C:\Users\puran\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 3c5713e0-2bb2-4a39-acdc-ade83a0b0c4b
+*** Element info: {Using=name, value=email}
+]]></system-out>
+    <system-err><![CDATA[1710106834570	Marionette	INFO	Stopped listening on port 51036
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-KR3J610VYM&l=dataLayer&cx=c, line 438: Script terminated by timeout at:
+Gv/<@https://www.googletagmanager.com/gtag/js?id=G-KR3J610VYM&l=dataLayer&cx=c:438:95
+Hx/<@https://www.googletagmanager.com/gtag/js?id=G-KR3J610VYM&l=dataLayer&cx=c:459:55
+Cw@https://www.googletagmanager.com/gtag/js?id=G-KR3J610VYM&l=dataLayer&cx=c:448:342
+Bw@https://www.googletagmanager.com/gtag/js?id=G-KR3J610VYM&l=dataLayer&cx=c:446:693
+Cx@https://www.googletagmanager.com/gtag/js?id=G-KR3J610VYM&l=dataLayer&cx=c:452:449
+Lx@https://www.googletagmanager.com/gtag/js?id=G-KR3J610VYM&l=dataLayer&cx=c:457:195
+Ky@https://www.googletagmanager.com/gtag/js?id=G-KR3J610VYM&l=dataLayer&cx=c:474:272
+Ny@https://www.googletagmanager.com/gtag/js?id=G-KR3J610VYM&l=dataLayer&cx=c:479:57
+Py@https://www.googletagmanager.com/gtag/js?id=G-KR3J610VYM&l=dataLayer&cx=c:480:43
+@https://www.googletagmanager.com/gtag/js?id=G-KR3J610VYM&l=dataLayer&cx=c:670:295
+@https://www.googletagmanager.com/gtag/js?id=G-KR3J610VYM&l=dataLayer&cx=c:665:292
+@https://www.googletagmanager.com/gtag/js?id=G-KR3J610VYM&l=dataLayer&cx=c:665:298
+@https://www.googletagmanager.com/gtag/js?id=G-KR3J610VYM&l=dataLayer&cx=c:673:3
+
+Dynamically enable window occlusion 1
+1710106835517	geckodriver	INFO	Listening on 127.0.0.1:30323
+1710106835555	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\puran\\AppData\\Local\\Temp\\rust_mozprofile0Vc5Km"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1710106836008	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1710106836314	Marionette	INFO	Listening on port 51206
+Read port: 51206
+1710106836496	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Mar. 10, 2024 5:40:37 P.M. org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+JavaScript warning: https://www.etsy.com/ac/evergreenVendor/js/en-GB/app-shell/globals/index.4c62678401eff02300bf.js, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://cdn.granify.com/assets/javascript.js?id=uPFzZ, line 4: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+]]></system-err>
+  </testcase>
+  <testcase name="setUp" classname="com.qa.tests.ShopDealsPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="com.qa.tests.ShopDealsPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="ShopDealsPageTitleTest" classname="com.qa.tests.ShopDealsPageTest" time="0">
+    <skipped message="Unable to locate element: *[name=&apos;email&apos;]&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-IJOKCR5&apos;, ip: &apos;10.0.0.72&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.10&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 123.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20240304104836, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 12400, moz:profile: C:\Users\puran\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 3c5713e0-2bb2-4a39-acdc-ade83a0b0c4b&#10;*** Element info: {Using=name, value=email}"/>
+  </testcase>
+  <testcase name="closeBrowser" classname="com.qa.tests.ShopDealsPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="closeBrowser" classname="com.qa.tests.ShopDealsPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="closeBrowser" classname="com.qa.tests.ShopDealsPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="verifyShopDealsPage" classname="com.qa.tests.ShopDealsPageTest" time="0">
+    <skipped message="Unable to locate element: *[name=&apos;email&apos;]&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-IJOKCR5&apos;, ip: &apos;10.0.0.72&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.10&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 123.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20240304104836, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 12400, moz:profile: C:\Users\puran\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 3c5713e0-2bb2-4a39-acdc-ade83a0b0c4b&#10;*** Element info: {Using=name, value=email}"/>
+  </testcase>
+  <testcase name="VerifySearchList" classname="com.qa.tests.ShopDealsPageTest" time="0">
+    <skipped message="Unable to locate element: *[name=&apos;email&apos;]&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-IJOKCR5&apos;, ip: &apos;10.0.0.72&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.10&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 123.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20240304104836, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 12400, moz:profile: C:\Users\puran\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 3c5713e0-2bb2-4a39-acdc-ade83a0b0c4b&#10;*** Element info: {Using=name, value=email}"/>
+  </testcase>
+  <testcase name="SignInPageTitleTest" classname="com.qa.tests.SignInTest" time="5.025"/>
+  <testcase name="validateLogo" classname="com.qa.tests.SignInTest" time="8.134"/>
+  <testcase name="SignIn" classname="com.qa.tests.SignInTest" time="10.731"/>
+</testsuite>
